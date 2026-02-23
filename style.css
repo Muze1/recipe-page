@@ -36,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 2;
+    line-height: 1.5;
 
 }
 
@@ -48,12 +48,20 @@ ol {
     list-style-position: inside;
 }
 
+img {
+    width: 500px;
+    border-radius: 10px;
+}
+
 .container {
     max-width: 500px;
     background-color: var(--white);
     border-radius: 16px;
-    padding: 40px;
-    margin: 30px;
+    padding: 35px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 h1 {
@@ -68,10 +76,17 @@ h2 {
 
 .preparation-container {
     background-color: var(--rose50);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 30px 0;
 }
 
 .preparation-heading {
     color: var(--rose800);
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+section {
+    padding: 10px 0;
 }
