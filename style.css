@@ -51,6 +51,7 @@ ol {
 img {
     width: 500px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -61,7 +62,6 @@ img {
     margin: 50px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 h1 {
@@ -78,7 +78,7 @@ h2 {
     background-color: var(--rose50);
     border-radius: 10px;
     padding: 20px 30px;
-    margin: 30px 0;
+    margin: 20px 0 0;
 }
 
 .preparation-heading {
@@ -89,4 +89,6 @@ h2 {
 
 section {
     padding: 10px 0;
+    margin: 10px 0;
 }
+
