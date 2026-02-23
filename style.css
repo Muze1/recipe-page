@@ -36,14 +36,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 2;
 
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
 }
 
 .container {
     max-width: 500px;
     background-color: var(--white);
-    border-radius: 20px;
-    
+    border-radius: 16px;
+    padding: 40px;
+    margin: 30px;
 }
 
 h1 {
@@ -56,3 +66,12 @@ h2 {
     color: var(--brown800);
 }
 
+.preparation-container {
+    background-color: var(--rose50);
+}
+
+.preparation-heading {
+    color: var(--rose800);
+    font-size: 20px;
+    font-weight: 500;
+}
