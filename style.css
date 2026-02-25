@@ -40,8 +40,8 @@ body {
     line-height: 1.5;
 }
 
-ul, ol {
-    /* list-style-position: inside; */
+ul,
+ol {
     padding-left: 24px;
 }
 
@@ -58,11 +58,11 @@ li::marker {
 img {
     border-radius: 10px;
     margin-bottom: 24px;
-    /* object-fit: contain; */
 }
 
 .container {
     max-width: 650px;
+    margin-inline: auto;
     background-color: var(--white);
     border-radius: 24px;
     padding: 40px;
@@ -101,5 +101,16 @@ section {
 }
 
 table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
+tr:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 1rem;
+    text-align: left;
 }
